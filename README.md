@@ -55,9 +55,12 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
-python3 manage.py createsuperuser
+### Создание суперпользователя:
+```sh
+$ python3 manage.py createsuperuser
+```
 
-## для востановление пароля пользователя, укажите почту отправления в settings.py:
+> для востановление пароля пользователя, укажите почту отправления в settings.py:
 ```sh
 $ EMAIL_HOST_USER = 'xxxx@gmail.com'
 $ EMAIL_HOST_PASSWORD = 'xxxx'
